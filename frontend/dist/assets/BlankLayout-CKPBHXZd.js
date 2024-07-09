@@ -1,0 +1,1 @@
+import{m as e,o as a,e as t,w as o,b as s,B as n,S as r,U as c}from"./index-D7yCSS-M.js";const f=e({__name:"BlankLayout",setup(p){return(u,_)=>(a(),t(r,null,{default:o(()=>[s(n(c))]),_:1}))}});export{f as default};

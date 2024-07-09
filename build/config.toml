@@ -1,0 +1,31 @@
+[database.default]
+username="tools"
+password="Zqp113217"
+host = "49.232.222.252:3306"
+database = "tools"
+max_open_conn=5
+max_idle_conn=2
+conn_max_idletime=120
+conn_max_lifetime=3600
+use_log = true
+log_level=4
+
+[[redis]]
+name="default"
+default=true
+config.host="49.232.222.252"
+config.port=6379
+config.database=1
+config.max_active=2000
+config.max_idle=5
+config.wait=true
+config.connect_timeout="5s"
+config.read_timeout="2s"
+config.max_conn_lifetime="3600s"
+config.idle_timeout="120s"
+
+[email]
+host = "smtp.qq.com"
+port = 25
+user_name = "1844066417@qq.com"
+password = "jthlffwdvnfmbedi"
